@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "test_session",
+    "grade_evidence"
+  ],
+  "relation_field": "test_batch",
+  "required_fields": {
+    "test_session": [
+      "test_batch",
+      "model",
+      "firmware"
+    ],
+    "grade_evidence": [
+      "test_batch",
+      "dimension",
+      "signed"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}

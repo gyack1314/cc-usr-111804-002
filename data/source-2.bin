@@ -1,8 +1,8 @@
 {
   "kind": "grade_evidence",
-  "id": "grade_evidence-B",
+  "id": "grade_evidence-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "pending"
+  "test_batch": "B-17",
+  "dimension": "perception",
+  "signed": true
 }
