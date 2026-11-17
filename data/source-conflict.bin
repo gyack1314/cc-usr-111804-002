@@ -1,0 +1,8 @@
+{
+  "kind": "test_session",
+  "id": "test_session-A",
+  "revision": "v1",
+  "period": "2026-11-13",
+  "subject": "sample-A",
+  "state": "corrected-copy"
+}
