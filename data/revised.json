@@ -1,0 +1,32 @@
+{
+  "allowed_origins": [
+    "https://local-source-002.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-002.example.test/records/test_session-A",
+      "kind": "test_session",
+      "required": true
+    },
+    {
+      "url": "https://local-source-002.example.test/records/grade_evidence-B",
+      "kind": "grade_evidence",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-002.example.test/records/test_session-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-revised.bin",
+        "status": 200,
+        "bytes": 140,
+        "sha256": "95cabb6b43c6e00cb3ad4878489ac34d481f8c7c525643fd7f5c5f02004bd844"
+      }
+    }
+  ]
+}

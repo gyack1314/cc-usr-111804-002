@@ -1,0 +1,8 @@
+{
+  "kind": "test_session",
+  "id": "test_session-A",
+  "revision": "v2",
+  "test_batch": "B-17",
+  "model": "robot-A",
+  "firmware": "v2"
+}
