@@ -1,0 +1,37 @@
+{
+  "allowed_origins": [
+    "https://local-source-002.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-002.example.test/records/test_session-A",
+      "kind": "test_session",
+      "required": true
+    },
+    {
+      "url": "https://local-source-002.example.test/records/grade_evidence-B",
+      "kind": "grade_evidence",
+      "required": true
+    },
+    {
+      "url": "https://local-source-002.example.test/records/grade_withdrawal-A",
+      "kind": "grade_withdrawal",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-002.example.test/records/grade_withdrawal-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-event.bin",
+        "status": 200,
+        "bytes": 187,
+        "sha256": "58a3172739ecbc56d29276260432cca266e80b65738595b893ca0d2d11dafafc"
+      }
+    }
+  ]
+}

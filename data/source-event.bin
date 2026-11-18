@@ -1,0 +1,9 @@
+{
+  "kind": "grade_withdrawal",
+  "id": "grade_withdrawal-A",
+  "revision": "v1",
+  "test_batch": "B-17",
+  "firmware": "v1",
+  "withdrawn_on": "2026-11-18",
+  "dimension": "perception"
+}

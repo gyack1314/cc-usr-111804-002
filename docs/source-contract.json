@@ -1,7 +1,8 @@
 {
   "roles": [
     "test_session",
-    "grade_evidence"
+    "grade_evidence",
+    "grade_withdrawal"
   ],
   "relation_field": "test_batch",
   "required_fields": {
@@ -14,6 +15,12 @@
       "test_batch",
       "dimension",
       "signed"
+    ],
+    "grade_withdrawal": [
+      "test_batch",
+      "firmware",
+      "withdrawn_on",
+      "dimension"
     ]
   },
   "source_identity": [
