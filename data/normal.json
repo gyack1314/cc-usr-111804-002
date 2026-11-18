@@ -29,5 +29,17 @@
         "sha256": "1c5c884564ab0ed517e629169dfbacf92ecad694b4e03283f26d203d4562176a"
       }
     }
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-002.example.test/records/test_session-A",
+      "kind": "test_session",
+      "required": true
+    },
+    {
+      "url": "https://local-source-002.example.test/records/grade_evidence-B",
+      "kind": "grade_evidence",
+      "required": true
+    }
   ]
 }
