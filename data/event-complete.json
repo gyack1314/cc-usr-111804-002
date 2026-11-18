@@ -6,17 +6,20 @@
     {
       "url": "https://local-source-002.example.test/records/test_session-A",
       "kind": "test_session",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     },
     {
       "url": "https://local-source-002.example.test/records/grade_evidence-B",
       "kind": "grade_evidence",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     },
     {
       "url": "https://local-source-002.example.test/records/grade_withdrawal-A",
       "kind": "grade_withdrawal",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     }
   ],
   "steps": [
