@@ -1,0 +1,18 @@
+{
+  "allowed_origins": [
+    "https://local-source-002.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-002.example.test/records/test_session-A",
+      "kind": "test_session",
+      "required": true
+    },
+    {
+      "url": "https://local-source-002.example.test/records/grade_withdrawal-A",
+      "kind": "grade_withdrawal",
+      "required": true
+    }
+  ],
+  "steps": []
+}
